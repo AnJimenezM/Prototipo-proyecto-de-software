@@ -1,0 +1,58 @@
+
+
+body{
+    background: rgb(8,28,34);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+}
+.img{
+    width: 100%;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-direction: center;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu > li {
+   
+    position: relative;
+   float: left;
+ background: #000;
+ transform: skewX(25deg);
+ list-style: none;
+
+}
+
+.menu a{
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial, Helvetica;
+    font-size: 14px;
+    
+
+}
+.menu li:hover{
+    background-color: #e74c3c;
+
+}
+
+.menu > li > a{
+    transform: skew(-25deg);
+    padding: 1em 2em;
+
+}
+
+@media screen and (max-width:630px) {
+    
+}
+
